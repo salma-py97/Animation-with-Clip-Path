@@ -1,0 +1,28 @@
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box {
+  height: 100vh;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.b1 {
+  background-color: #85CDCA;
+}
+
+.b2 {
+  background-color: #E27D60;
+}
+
+img {
+  object-fit: cover;
+  height: 500px;
+  width: 350px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
